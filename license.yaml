@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: license
+type: Opaque
+data:
+  license: <BASE64-ENCODED LICENSE DATA>
